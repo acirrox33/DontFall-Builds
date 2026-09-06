@@ -4,7 +4,7 @@ Builds jugables de **DontFall**. (El código fuente vive en otro repositorio.)
 
 ## Descargar y jugar
 
-1. Ve a **[Releases](../../releases)** y descarga el `.zip` de la última versión.
+1. **[Descargar la última versión](../../releases/latest/download/DontFall-win64.zip)** (enlace directo, siempre apunta a la más reciente).
 2. **Descomprime la carpeta entera.** No sirve solo el `.exe`.
 3. Abre **Steam** y déjalo abierto (con tu sesión iniciada).
 4. Ejecuta `DontFall.exe`.
@@ -18,8 +18,15 @@ Builds jugables de **DontFall**. (El código fuente vive en otro repositorio.)
 > En Steam aparecerás jugando a "Spacewar": es el identificador de pruebas de
 > Valve, que es lo que usa el juego hasta tener uno propio.
 
+## Controles
+
+`WASD` moverse · `Shift` correr · ratón cámara · `Espacio` saltar (en el aire: **plancha** hacia adelante) · `Ctrl` agacharse.
+En la fase de construcción: `WASD`+`Espacio`/`Ctrl` mueven el objeto, rueda para el zoom, `R` gizmo de rotación, clic izquierdo para colocar.
+
 ## Estado
 
-En desarrollo. Ya funciona: moverse, trampas, muertes y el ciclo de rondas.
-**Todavía no**: la fase de construcción no está sincronizada, así que cada
-jugador solo ve lo que coloca él.
+En desarrollo. Ya funciona el ciclo completo de partida: sala → elección de
+acción → construcción → carrera → resultados → podio → vuelta a la sala.
+Un mapa, unas pocas trampas y terreno colocable.
+
+**Ojo:** es un prototipo. El personaje, el mapa y las trampas van a cambiar.
